@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<!DOCTYPE qfsmproject SYSTEM 'qfsm.dtd'>
+<qfsmproject version="0.54" author="Qfsm">
+  <machine nummooreout="0" transfontitalic="0" draw_it="1" statefontsize="8" transfont="Helvetica" statefontitalic="0" author="" description="" version="" name="FSM" arrowtype="1" numbits="3" statefontweight="50" statefont="Helvetica" numin="0" transfontsize="8" transfontweight="50" type="2" numout="0" initialstate="0">
+    <outputnames_moore></outputnames_moore>
+    <inputnames></inputnames>
+    <outputnames></outputnames>
+    <itransition ypos="175" endx="459" xpos="399" endy="175"/>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="175" code="0" xpos="499" linewidth="1">intro</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="306" code="1" xpos="500" linewidth="1">map1</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="427" code="2" xpos="504" linewidth="1">map2</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="556" code="3" xpos="509" linewidth="1">yadro</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="677" code="4" xpos="511" linewidth="1">jkh</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="821" code="5" xpos="510" linewidth="1">transport</state>
+    <transition c1x="501.2614121978384" c2y="249.2236005742612" c1y="232.1112175959714" description="" straight="1" type="2" ypos="214.9988346176815" endx="505.1735673627107" xpos="499.3053346154022" endy="266.3359835525511" c2x="503.2174897802746">
+      <from>0</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">introToMap</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="503.1993505499455" c2y="373.3989137034922" c1y="359.6885375852529" description="" straight="1" type="2" ypos="345.9781614670134" endx="506.9548674206125" xpos="501.321592114612" endy="387.1092898217316" c2x="505.077108985279">
+      <from>1</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">introToMap2</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="505.0456864209967" c2y="499.8625858011707" c1y="483.4162866708882" description="" straight="1" type="2" ypos="466.9699875406055" endx="504.0386106164316" xpos="505.5492243232793" endy="516.3088849314534" c2x="504.5421485187142">
+      <from>2</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">map2ToYadro</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="513.0623258661639" c2y="623.9946361828011" c1y="609.9945865972604" description="" straight="1" type="2" ypos="595.9945370117199" endx="519.8648441435587" xpos="509.6610667274665" endy="637.9946857683416" c2x="516.4635850048612">
+      <from>3</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">yadroToJkh</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="495.0560877951176" c2y="314.8705027647662" c1y="475.9409631296595" description="" straight="1" type="2" ypos="637.0114234945529" endx="465.0800678397965" xpos="510.0440977727782" endy="153.8000423998728" c2x="480.068077817457">
+      <from>4</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">jkhToIntro</inputs>
+      <outputs></outputs>
+    </transition>
+  </machine>
+</qfsmproject>
