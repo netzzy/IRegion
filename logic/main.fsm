@@ -5,43 +5,36 @@
     <outputnames_moore></outputnames_moore>
     <inputnames></inputnames>
     <outputnames></outputnames>
-    <itransition ypos="175" endx="459" xpos="399" endy="175"/>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="175" code="0" xpos="499" linewidth="1">main_map</state>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="292" code="1" xpos="495" linewidth="1">region_map</state>
+    <itransition ypos="111" endx="457" xpos="397" endy="111"/>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="111" code="0" xpos="497" linewidth="1">main_map</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="433" code="17" xpos="493" linewidth="1">menu</state>
     <state pencolor="0" exit_actions="" radius="80" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="509" code="2" xpos="1517" linewidth="1">telemed</state>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="660" code="3" xpos="1535" linewidth="1">telemed_realization</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="707" code="3" xpos="1443" linewidth="1">telemed_realization</state>
     <state pencolor="0" exit_actions="" radius="80" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="682" code="6" xpos="401" linewidth="1">JKH</state>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="954" code="9" xpos="384" linewidth="1">jkh_realization</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="972" code="9" xpos="493" linewidth="1">jkh_realization</state>
     <state pencolor="0" exit_actions="" radius="80" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="589" code="10" xpos="871" linewidth="1">transport</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="809" code="11" xpos="712" linewidth="1">trans_vesogabarit</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="805" code="12" xpos="809" linewidth="1">trans_fix</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="810" code="13" xpos="1039" linewidth="1">trans_park</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="814" code="14" xpos="614" linewidth="1">transport_realiz</state>
     <state pencolor="0" exit_actions="" radius="80" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="565" code="15" xpos="131" linewidth="1">obrazlovanie</state>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="768" code="16" xpos="152" linewidth="1">obrazovanie_realiz</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="804" code="16" xpos="161" linewidth="1">obrazovanie_realiz</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="804" code="4" xpos="916" linewidth="1">trans_pay</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="814" code="7" xpos="1147" linewidth="1">trans_adv</state>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="917" code="8" xpos="259" linewidth="1">jkh_info</state>
-    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="936" code="5" xpos="526" linewidth="1">jkh_rezult</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="936" code="8" xpos="284" linewidth="1">jkh_info</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="959" code="18" xpos="988" linewidth="1">trans_park_info</state>
     <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="960" code="19" xpos="1100" linewidth="1">trans_park_real</state>
-    <transition c1x="498.5773500464176" c2y="239.9089845663706" c1y="227.4428143024801" description="" straight="1" type="2" ypos="214.9766440385897" endx="500.4654958854812" xpos="497.6332771268858" endy="252.375154830261" c2x="499.5214229659494">
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="729" code="22" xpos="1580" linewidth="1">telemed_info</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="1090" code="20" xpos="1080" linewidth="1">trans_park_video1</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="1112" code="21" xpos="1208" linewidth="1">trans_park_video2</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="802" code="23" xpos="45" linewidth="1">obrazovanie_info</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="1164" code="24" xpos="409" linewidth="1">jkh_info_v3</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="1119" code="25" xpos="167" linewidth="1">jkh_info_v1</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="1145" code="1" xpos="296" linewidth="1">jkh_info_v2</state>
+    <transition c1x="492.4430231789275" c2y="312.9673164139173" c1y="231.9821152351927" description="" straight="1" type="2" ypos="150.9969140564682" endx="484.3227816872537" xpos="496.5031439247643" endy="393.9525175926419" c2x="488.3829024330906">
       <from>0</from>
-      <to>1</to>
-      <inputs default="0" any="0" invert="0">mainmap_to_map</inputs>
-      <outputs></outputs>
-    </transition>
-    <transition c1x="493.5743238027229" c2y="372.6762032492631" c1y="352.3360899569539" description="" straight="1" type="2" ypos="331.9959766646448" endx="491.8576090440449" xpos="494.4326811820618" endy="393.0163165415722" c2x="492.7159664233839">
-      <from>1</from>
       <to>17</to>
-      <inputs default="0" any="0" invert="0">regionmap_to_menu</inputs>
-      <outputs></outputs>
-    </transition>
-    <transition c1x="507.8599778370509" c2y="216.8100057880317" c1y="234.416680874721" description="" straight="1" type="2" ypos="252.0233559614104" endx="530.8464877649241" xpos="496.3667228731142" endy="199.2033307013423" c2x="519.3532328009875">
-      <from>1</from>
-      <to>0</to>
-      <inputs default="0" any="0" invert="0">regionmap_to_main_map</inputs>
+      <inputs default="0" any="0" invert="0">map_to_menu</inputs>
       <outputs></outputs>
     </transition>
     <transition c1x="461.9652672813047" c2y="559.1113824646076" c1y="515.9679872121051" description="" straight="1" type="2" ypos="472.8245919596027" endx="407.3796177826312" xpos="489.2580920306414" endy="602.25477771711" c2x="434.6724425319679">
@@ -68,19 +61,31 @@
       <inputs default="0" any="0" invert="0">menu_to_obrazovanie</inputs>
       <outputs></outputs>
     </transition>
+    <transition c1x="500.6274186568232" c2y="228.8524204078417" c1y="310.9277531756868" description="" straight="1" type="2" ypos="393.0030859435318" endx="514.8885438199983" xpos="493.4968560752357" endy="146.7770876399966" c2x="507.7579812384108">
+      <from>17</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">menu_to_map</inputs>
+      <outputs></outputs>
+    </transition>
     <transition c1x="1141.231960330617" c2y="446.4731180044626" c1y="459.9462360089253" description="" straight="1" type="2" ypos="473.4193540133879" endx="533" xpos="1445.347940495926" endy="433" c2x="837.1159801653087">
       <from>2</from>
       <to>17</to>
       <inputs default="0" any="0" invert="0">telemed_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="1518.62714824294" c2y="609.5719406177869" c1y="599.124364279057" description="" straight="1" type="2" ypos="588.676787940327" endx="1536.249390095109" xpos="1509.816027316856" endy="620.0195169565169" c2x="1527.438269169025">
+    <transition c1x="1487.960481576274" c2y="640.9052739511203" c1y="614.7910309457236" description="" straight="1" type="2" ypos="588.676787940327" endx="1444.249390095109" xpos="1509.816027316856" endy="667.0195169565169" c2x="1466.104935835691">
       <from>2</from>
       <to>3</to>
       <inputs default="0" any="0" invert="0">telemed_to_realiz</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="1551.880558350311" c2y="580.1970366587178" c1y="600.1793213442771" description="" straight="1" type="2" ypos="620.1616060298366" endx="1578.45770236779" xpos="1538.591986341572" endy="560.2147519731584" c2x="1565.169130359051">
+    <transition c1x="1552.682572381408" c2y="654.6362366885742" c1y="620.2724733771482" description="" straight="1" type="2" ypos="585.9087100657224" endx="1580.00000137931" xpos="1539.023857882457" endy="689" c2x="1566.341286880359">
+      <from>2</from>
+      <to>22</to>
+      <inputs default="0" any="0" invert="0">telemed_to_telemed_info</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1490.547225016978" c2y="595.8637033253845" c1y="631.5126546776105" description="" straight="1" type="2" ypos="667.1616060298366" endx="1578.45770236779" xpos="1446.591986341572" endy="560.2147519731584" c2x="1534.502463692384">
       <from>3</from>
       <to>2</to>
       <inputs default="0" any="0" invert="0">realiz_to_telemed</inputs>
@@ -92,31 +97,25 @@
       <inputs default="0" any="0" invert="0">jkh_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="396.2821063903564" c2y="863.3480511814175" c1y="812.6723423369786" description="" straight="1" type="2" ypos="761.9966334925396" endx="385.3784910335912" xpos="401.733914068739" endy="914.0237600258565" c2x="390.8302987119738">
+    <transition c1x="432.6154397236898" c2y="875.3480511814175" c1y="818.6723423369786" description="" straight="1" type="2" ypos="761.9966334925396" endx="494.3784910335912" xpos="401.733914068739" endy="932.0237600258565" c2x="463.4969653786404">
       <from>6</from>
       <to>9</to>
       <inputs default="0" any="0" invert="0">jkh_to_realiz</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="338.2845534730517" c2y="838.6484050980341" c1y="797.2574834929437" description="" straight="1" type="2" ypos="755.8665618878534" endx="274.294071709052" xpos="370.2797943550516" endy="880.0393267031244" c2x="306.2893125910518">
+    <transition c1x="346.6178868063851" c2y="851.3150717647008" c1y="803.5908168262771" description="" straight="1" type="2" ypos="755.8665618878534" endx="299.294071709052" xpos="370.2797943550516" endy="899.0393267031245" c2x="322.9559792577185">
       <from>6</from>
       <to>8</to>
       <inputs default="0" any="0" invert="0">jkh_to_info</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="460.1924900823046" c2y="849.9367161853928" c1y="802.9209147781436" description="" straight="1" type="2" ypos="755.9051133708945" endx="517.3227816872537" xpos="431.6273442798301" endy="896.9525175926419" c2x="488.7576358847792">
-      <from>6</from>
-      <to>5</to>
-      <inputs default="0" any="0" invert="0">jkh_to_result</inputs>
-      <outputs></outputs>
-    </transition>
-    <transition c1x="411.4734020322745" c2y="789.3237622262983" c1y="851.6627227400143" description="" straight="1" type="2" ypos="914.0016832537302" endx="467.1541201655623" xpos="383.6330429656305" endy="726.9848017125823" c2x="439.3137610989184">
+    <transition c1x="484.1400686989411" c2y="795.3237622262983" c1y="863.6627227400143" description="" straight="1" type="2" ypos="932.0016832537302" endx="467.1541201655623" xpos="492.6330429656305" endy="726.9848017125823" c2x="475.6470944322517">
       <from>9</from>
       <to>6</to>
       <inputs default="0" any="0" invert="0">realiz_to_jkh</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="425.1599163761827" c2y="620.2523750949888" c1y="767.550024681" description="" straight="1" type="2" ypos="914.8476742670111" endx="491.097394023382" xpos="392.1911775525831" endy="472.9547255089775" c2x="458.1286551997824">
+    <transition c1x="497.8265830428493" c2y="626.2523750949888" c1y="779.550024681" description="" straight="1" type="2" ypos="932.8476742670111" endx="491.097394023382" xpos="501.1911775525831" endy="472.9547255089775" c2x="494.4619885331157">
       <from>9</from>
       <to>17</to>
       <inputs default="0" any="0" invert="0">jkhrealiz_to_menu</inputs>
@@ -188,13 +187,13 @@
       <inputs default="0" any="0" invert="0">trans_fix_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="991.1746757294987" c2y="672.7850977503751" c1y="725.6320614006963" description="" straight="1" type="2" ypos="778.4790250510175" endx="944.7755505462825" xpos="1014.374238321107" endy="619.938134100054" c2x="967.9751131378907">
+    <transition c1x="991.1746757294989" c2y="672.7850977503751" c1y="725.6320614006963" description="" straight="1" type="2" ypos="778.4790250510175" endx="944.7755505462825" xpos="1014.374238321107" endy="619.938134100054" c2x="967.9751131378906">
       <from>13</from>
       <to>10</to>
       <inputs default="0" any="0" invert="0">park_to_trans</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="845.8052182230891" c2y="566.800057897288" c1y="677.073247887574" description="" straight="1" type="2" ypos="787.34643787786" endx="525.3494433721276" xpos="1006.03310564857" endy="456.5268679070019" c2x="685.5773307976084">
+    <transition c1x="845.8052182230891" c2y="566.800057897288" c1y="677.073247887574" description="" straight="1" type="2" ypos="787.34643787786" endx="525.3494433721276" xpos="1006.03310564857" endy="456.5268679070019" c2x="685.5773307976083">
       <from>13</from>
       <to>17</to>
       <inputs default="0" any="0" invert="0">trans_park_to_menu</inputs>
@@ -224,13 +223,19 @@
       <inputs default="0" any="0" invert="0">obrazovanie_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="135.4916413623792" c2y="700.3624428962468" c1y="672.6597391694526" description="" straight="1" type="2" ypos="644.9570354426584" endx="149.7180083784595" xpos="128.3784578543391" endy="728.065146623041" c2x="142.6048248704194">
+    <transition c1x="138.4916413623793" c2y="724.3624428962468" c1y="684.6597391694526" description="" straight="1" type="2" ypos="644.9570354426584" endx="158.7180083784595" xpos="128.3784578543391" endy="764.065146623041" c2x="148.6048248704194">
       <from>15</from>
       <to>16</to>
       <inputs default="0" any="0" invert="0">obrazovanie_to_realiz</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="167.3578743858717" c2y="650.9346514516913" c1y="689.4780668651811" description="" straight="1" type="2" ypos="728.0214822786709" endx="195.452081011954" xpos="153.3107710728305" endy="612.3912360382014" c2x="181.4049776989128">
+    <transition c1x="73.7294264035507" c2y="731.4087939131912" c1y="685.8053897285593" description="" straight="1" type="2" ypos="640.2019855439274" endx="13.76524762227879" xpos="103.7115157941867" endy="777.012198097823" c2x="43.74733701291475">
+      <from>15</from>
+      <to>23</to>
+      <inputs default="0" any="0" invert="0">obrazovanie_to_info</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="173.3578743858717" c2y="662.9346514516913" c1y="713.4780668651811" description="" straight="1" type="2" ypos="764.0214822786709" endx="195.452081011954" xpos="162.3107710728305" endy="612.3912360382014" c2x="184.4049776989129">
       <from>16</from>
       <to>15</to>
       <inputs default="0" any="0" invert="0">realiz_to_obrazovanie</inputs>
@@ -260,64 +265,124 @@
       <inputs default="0" any="0" invert="0">trans_adv_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="296.1546054872598" c2y="782.3258176279323" c1y="831.1962683420028" description="" straight="1" type="2" ypos="880.0667190560732" endx="339.7436108168311" xpos="274.3601028224742" endy="733.4553669138619" c2x="317.9491081520455">
+    <transition c1x="312.8212721539264" c2y="788.6591509612657" c1y="843.8629350086694" description="" straight="1" type="2" ypos="899.0667190560732" endx="339.7436108168311" xpos="299.3601028224742" endy="733.4553669138619" c2x="326.2824414853789">
       <from>8</from>
       <to>6</to>
       <inputs default="0" any="0" invert="0">info_to_jkh</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="338.7472120750774" c2y="599.6327638924324" c1y="740.4278381262179" description="" straight="1" type="2" ypos="881.2229123600034" endx="462.4645485852354" xpos="276.8885438199984" endy="458.837689658647" c2x="400.6058803301564">
+    <transition c1x="355.413878741744" c2y="605.9660972257658" c1y="753.0945047928846" description="" straight="1" type="2" ypos="900.2229123600034" endx="462.4645485852354" xpos="301.8885438199984" endy="458.837689658647" c2x="408.9392136634897">
       <from>8</from>
       <to>17</to>
       <inputs default="0" any="0" invert="0">jkhinfo_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="500.4280565422471" c2y="763.1170937611366" c1y="831.0822685378447" description="" straight="1" type="2" ypos="899.0474433145528" endx="479.9115139065715" xpos="510.6863278600849" endy="695.1519189844286" c2x="490.1697852244093">
-      <from>5</from>
-      <to>6</to>
-      <inputs default="0" any="0" invert="0">jkhrezult_to_jkh</inputs>
+    <transition c1x="233.8690007629328" c2y="1044.158695905273" c1y="1005.679984726317" description="" straight="1" type="2" ypos="967.2012735473605" endx="183.6661884197285" xpos="258.9704069345349" endy="1082.637407084229" c2x="208.7675945913307">
+      <from>8</from>
+      <to>25</to>
+      <inputs default="0" any="0" invert="0">jkhi_to_v1</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="516.0866452655192" c2y="613.4199720365668" c1y="754.7528895162217" description="" straight="1" type="2" ypos="896.0858069958764" endx="501.4971857732418" xpos="523.381375011658" endy="472.0870545569121" c2x="508.7919155193806">
-      <from>5</from>
-      <to>17</to>
-      <inputs default="0" any="0" invert="0">jkhrezult_to_menu</inputs>
+    <transition c1x="289.2609818650097" c2y="1063.212258003073" c1y="1019.144129349462" description="" straight="1" type="2" ypos="975.0760006958504" endx="282.6871952905945" xpos="292.5478751522173" endy="1107.280386656684" c2x="285.9740885778021">
+      <from>8</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">jkhi_to_v2</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="999.2006049744554" c2y="857.4633187876018" c1y="888.8170930045632" description="" straight="1" type="2" ypos="920.1708672215243" endx="1002.387398703089" xpos="997.6072081101383" endy="826.1095445706407" c2x="1000.794001838772">
+    <transition c1x="358.7647278934941" c2y="1073.521696447613" c1y="1013.03690710983" description="" straight="1" type="2" ypos="952.5521177720474" endx="435.4648654834738" xpos="320.4146590985042" endy="1134.006485785396" c2x="397.114796688484">
+      <from>8</from>
+      <to>24</to>
+      <inputs default="0" any="0" invert="0">jkhi_to_v3</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="999.2006049744553" c2y="857.4633187876019" c1y="888.8170930045631" description="" straight="1" type="2" ypos="920.1708672215243" endx="1002.387398703089" xpos="997.6072081101383" endy="826.1095445706407" c2x="1000.794001838772">
       <from>18</from>
       <to>13</to>
       <inputs default="0" any="0" invert="0">info_trans_park_to_park</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="950.3598473372192" c2y="747.652371356794" c1y="835.021582964845" description="" straight="1" type="2" ypos="922.3907945728959" endx="907.3140625135106" xpos="971.8827397490736" endy="660.2831597487432" c2x="928.836954925365">
+    <transition c1x="950.3598473372193" c2y="747.6523713567941" c1y="835.0215829648449" description="" straight="1" type="2" ypos="922.3907945728959" endx="907.3140625135106" xpos="971.8827397490736" endy="660.2831597487432" c2x="928.8369549253649">
       <from>18</from>
       <to>10</to>
       <inputs default="0" any="0" invert="0">info_trans_park_to_trans</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="813.908085840501" c2y="617.956776403469" c1y="773.9135754631615" description="" straight="1" type="2" ypos="929.8703745228539" endx="520.5499784765877" xpos="960.5871395224576" endy="461.9999773437766" c2x="667.2290321585444">
+    <transition c1x="813.908085840501" c2y="617.9567764034691" c1y="773.9135754631615" description="" straight="1" type="2" ypos="929.8703745228539" endx="520.5499784765877" xpos="960.5871395224576" endy="461.9999773437766" c2x="667.2290321585444">
       <from>18</from>
       <to>17</to>
       <inputs default="0" any="0" invert="0">info_trans_park_to_menu</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="1079.19045191296" c2y="860.583177789551" c1y="892.5364982657968" description="" straight="1" type="2" ypos="924.4898187420429" endx="1074.396728895279" xpos="1081.5873134218" endy="828.6298573133049" c2x="1076.79359040412">
+    <transition c1x="1079.19045191296" c2y="860.5831777895509" c1y="892.5364982657969" description="" straight="1" type="2" ypos="924.4898187420429" endx="1074.396728895279" xpos="1081.5873134218" endy="828.6298573133049" c2x="1076.793590404119">
       <from>19</from>
       <to>13</to>
       <inputs default="0" any="0" invert="0">real_trans_park_to_park</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="1032.411256343731" c2y="726.5370511897786" c1y="826.6430847460342" description="" straight="1" type="2" ypos="926.7491183022902" endx="941.7030333077649" xpos="1077.765367861714" endy="626.4310176335226" c2x="987.057144825748">
+    <transition c1x="1032.411256343731" c2y="726.5370511897785" c1y="826.6430847460343" description="" straight="1" type="2" ypos="926.7491183022902" endx="941.7030333077649" xpos="1077.765367861714" endy="626.4310176335226" c2x="987.057144825748">
       <from>19</from>
       <to>10</to>
       <inputs default="0" any="0" invert="0">real_trans_park_to_trans</inputs>
       <outputs></outputs>
     </transition>
-    <transition c1x="884.650195948298" c2y="622.4717929154774" c1y="778.1240297097158" description="" straight="1" type="2" ypos="933.7762665039543" endx="514.3597196555193" xpos="1069.795434094687" endy="466.8195561212389" c2x="699.5049578019086">
+    <transition c1x="884.6501959482977" c2y="622.4717929154774" c1y="778.1240297097158" description="" straight="1" type="2" ypos="933.7762665039543" endx="514.3597196555193" xpos="1069.795434094687" endy="466.8195561212389" c2x="699.5049578019084">
       <from>19</from>
       <to>17</to>
       <inputs default="0" any="0" invert="0">real_trans_park_to_menu</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1089.278476298683" c2y="1033.178289302008" c1y="1016.356578604017" description="" straight="1" type="2" ypos="999.5348679060247" endx="1080.000003636364" xpos="1093.917712629842" endy="1050" c2x="1084.639239967523">
+      <from>19</from>
+      <to>20</to>
+      <inputs default="0" any="0" invert="0">trans_park_real_to_v1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1146.41704085869" c2y="1046.872853117158" c1y="1020.721354062101" description="" straight="1" type="2" ypos="994.5698550070432" endx="1199.00561973205" xpos="1120.12275142201" endy="1073.024352172215" c2x="1172.71133029537">
+      <from>19</from>
+      <to>21</to>
+      <inputs default="0" any="0" invert="0">trans_park_real_to_v2</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1575.870964292526" c2y="591.8649844536728" c1y="641.2053147104058" description="" straight="1" type="2" ypos="690.5456449671389" endx="1589.636750760036" xpos="1568.988071058772" endy="542.5246541969398" c2x="1582.753857526281">
+      <from>22</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">telemedinfo_to_telemed</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1093.106664089438" c2y="1016.391574967323" c1y="1033.428353530649" description="" straight="1" type="2" ypos="1050.465132093975" endx="1107.155417527999" xpos="1086.082287370158" endy="999.3547964039963" c2x="1100.131040808719">
+      <from>20</from>
+      <to>19</to>
+      <inputs default="0" any="0" invert="0">trans_park_real_v1_to_trans_park_real</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1162.247780757292" c2y="1024.784020268074" c1y="1051.107082630516" description="" straight="1" type="2" ypos="1077.430144992957" endx="1110.988845115895" xpos="1187.87724857799" endy="998.4609579056329" c2x="1136.618312936593">
+      <from>21</from>
+      <to>19</to>
+      <inputs default="0" any="0" invert="0">trans_park_realv2_to_trans_park_real</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="79.33472063816726" c2y="684.3571360979954" c1y="724.3780716630158" description="" straight="1" type="2" ypos="764.3990072280362" endx="120.7156777086884" xpos="58.64424210290667" endy="644.336200532975" c2x="100.0251991734278">
+      <from>23</from>
+      <to>15</to>
+      <inputs default="0" any="0" invert="0">obrazovanieinfo_to_obrazovanie</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="385.6512184570689" c2y="1016.666234676282" c1y="1071.300814414326" description="" straight="1" type="2" ypos="1125.93539415237" endx="314.3702640946119" xpos="421.2916956382973" endy="962.0316549382387" c2x="350.0107412758403">
+      <from>24</from>
+      <to>8</to>
+      <inputs default="0" any="0" invert="0">jkhv3_to_jkhinfo</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="211.9523175455985" c2y="1002.418216498876" c1y="1045.108471475758" description="" straight="1" type="2" ypos="1087.79872645264" endx="251.7977665058653" xpos="192.0295930654651" endy="959.727961521994" c2x="231.8750420257319">
+      <from>25</from>
+      <to>8</to>
+      <inputs default="0" any="0" invert="0">jkhv1_to_jkhinfo</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="296.4690101040221" c2y="1014.601902862697" c1y="1059.921793951881" description="" straight="1" type="2" ypos="1105.241685041064" endx="306.1880078490092" xpos="291.6095112315286" endy="969.2820117735138" c2x="301.3285089765157">
+      <from>1</from>
+      <to>8</to>
+      <inputs default="0" any="0" invert="0">jkhv2_to_jkhinfo</inputs>
       <outputs></outputs>
     </transition>
   </machine>
