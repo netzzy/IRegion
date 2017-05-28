@@ -31,6 +31,12 @@
   <state id="telemed_realization">
     <transition event="realiz_to_telemed" target="telemed" >
     </transition>
+    <transition event="telemed_realization_to_v1" target="telemed_realization_v1" >
+    </transition>
+    <transition event="telemed_realization_to_v2" target="telemed_realization_v2" >
+    </transition>
+    <transition event="telemed_realization_to_menu" target="menu" >
+    </transition>
   </state>
   <state id="JKH">
     <transition event="jkh_to_menu" target="menu" >
@@ -61,11 +67,17 @@
     </transition>
     <transition event="trans_to_adv" target="trans_adv" >
     </transition>
+    <transition event="trans_adv_park" target="trans_park" >
+    </transition>
   </state>
   <state id="trans_vesogabarit">
     <transition event="gabarit_to_trans" target="transport" >
     </transition>
     <transition event="trans_gabarit_to_menu" target="menu" >
+    </transition>
+    <transition event="trans_veso_to_info" target="trans_veso_info" >
+    </transition>
+    <transition event="transveso_to_realiz" target="trans_veso_realiz" >
     </transition>
   </state>
   <state id="trans_fix">
@@ -131,6 +143,10 @@
     </transition>
     <transition event="info_trans_park_to_menu" target="menu" >
     </transition>
+    <transition event="trans_park_info_to_v1" target="trans_park_info_v1" >
+    </transition>
+    <transition event="trans_park_info_to_v2" target="trans_park_info_v2" >
+    </transition>
   </state>
   <state id="trans_park_real">
     <transition event="real_trans_park_to_park" target="trans_park" >
@@ -170,6 +186,30 @@
   </state>
   <state id="jkh_info_v2">
     <transition event="jkhv2_to_jkhinfo" target="jkh_info" >
+    </transition>
+  </state>
+  <state id="trans_veso_info">
+    <transition event="transveso_info_to_veso" target="trans_vesogabarit" >
+    </transition>
+  </state>
+  <state id="trans_veso_realiz">
+    <transition event="transveso_realiz_to_veso" target="trans_vesogabarit" >
+    </transition>
+  </state>
+  <state id="telemed_realization_v1">
+    <transition event="telemed_realizationv1_back" target="telemed_realization" >
+    </transition>
+  </state>
+  <state id="telemed_realization_v2">
+    <transition event="telemed_realization_v2_back" target="telemed_realization" >
+    </transition>
+  </state>
+  <state id="trans_park_info_v2">
+    <transition event="trans_park_info_v2_back" target="trans_park_info" >
+    </transition>
+  </state>
+  <state id="trans_park_info_v1">
+    <transition event="trans_park_info_v1_back" target="trans_park_info" >
     </transition>
   </state>
 </scxml>
